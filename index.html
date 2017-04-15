@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="slider-js/greensock.js?ver=1.12.0"></script>
+    <script type="text/javascript" src="slider-js/jquery.js?ver=1.13.0"></script>
+    <script type="text/javascript" src="slider-js/layerslider.kreaturamedia.jquery.js?ver=5.12.0"></script>
+
+  </head>
+  <body>
+  <!-- navbar sectioniun bashlangici   -->
+    <div id="navbar ">
+        <nav class="navbar  navbar-default navbar-static-top container" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="images/dictate-logo.png" alt="">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+          <ul class="dropdown-menu">
+            <li class="kopie"><a href="#">Dropdown</a></li>
+            <li><a href="#">Dropdown Link 1</a></li>
+            <li><a href="#">Dropdown Link 2</a></li>
+            <li><a href="#">Dropdown Link 3</a></li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Link 4</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 4</a></li>
+                <li><a href="#">Dropdown Submenu Link 4.1</a></li>
+                <li><a href="#">Dropdown Submenu Link 4.2</a></li>
+                <li><a href="#">Dropdown Submenu Link 4.3</a></li>
+                <li><a href="#">Dropdown Submenu Link 4.4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Link 5</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+                <li><a href="#">Dropdown Submenu Link 5.1</a></li>
+                <li><a href="#">Dropdown Submenu Link 5.2</a></li>
+                <li><a href="#">Dropdown Submenu Link 5.3</a></li>
+                <li class="dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+                  <ul class="dropdown-menu">
+                    <li class="kopie"><a href="#">Dropdown Submenu Link 5.4</a></li>
+                    <li><a href="#">Dropdown Submenu Link 5.4.1</a></li>
+                    <li><a href="#">Dropdown Submenu Link 5.4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+          <ul class="dropdown-menu">
+            <li class="kopie"><a href="#">Dropdown2</a></li>
+            <li><a href="#">Dropdown2 Link 1</a></li>
+            <li><a href="#">Dropdown2 Link 2</a></li>
+            <li><a href="#">Dropdown2 Link 3</a></li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+                <li class="dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+                  <ul class="dropdown-menu">
+                    <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+          <ul class="dropdown-menu">
+            <li class="kopie"><a href="#">Dropdown2</a></li>
+            <li><a href="#">Dropdown2 Link 1</a></li>
+            <li><a href="#">Dropdown2 Link 2</a></li>
+            <li><a href="#">Dropdown2 Link 3</a></li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+                <li class="dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+                  <ul class="dropdown-menu">
+                    <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+          <ul class="dropdown-menu">
+            <li class="kopie"><a href="#">Dropdown2</a></li>
+            <li><a href="#">Dropdown2 Link 1</a></li>
+            <li><a href="#">Dropdown2 Link 2</a></li>
+            <li><a href="#">Dropdown2 Link 3</a></li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+                <li class="dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+                  <ul class="dropdown-menu">
+                    <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+          <ul class="dropdown-menu">
+            <li class="kopie"><a href="#">Dropdown2</a></li>
+            <li><a href="#">Dropdown2 Link 1</a></li>
+            <li><a href="#">Dropdown2 Link 2</a></li>
+            <li><a href="#">Dropdown2 Link 3</a></li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+              <ul class="dropdown-menu">
+                <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+                <li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+                <li class="dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+                  <ul class="dropdown-menu">
+                    <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+                    <li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    <div class="layer">
+        <img src="images/top-shadow.png" alt="">
+    </div>
+  </nav>
+    </div>
+
+  <!-- navbar sectionun sonu -->
+
+<!-- slider sectionun bashlangici -->
+    <section id="slider">
+      <div class="wpb_layerslider_element wpb_content_element">
+        <script data-cfasync="false" type="text/javascript">
+           var lsjQuery = jQuery;
+        </script>
+        <script data-cfasync="false" type="text/javascript">
+           lsjQuery(document).ready(function() {
+           if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_3_1491980166_1','jquery'); }
+           else {
+           lsjQuery("#layerslider_3_1491980166_1").layerSlider({responsiveUnder: 1200, layersContainer: 1170, startInViewport: false, twoWaySlideshow: true, skin: 'borderlessdark3d', hoverPrevNext: false, navStartStop: false, navButtons: false, showCircleTimer: false, lazyLoad: false, yourLogoStyle: 'left: 10px; top: 10px;', cbInit: function(element) { }, cbStart: function(data) { }, cbStop: function(data) { }, cbPause: function(data) { }, cbAnimStart: function(data) { }, cbAnimStop: function(data) { }, cbPrev: function(data) { }, cbNext: function(data) { }, skinsPath: 'http://themes.webinane.com/wp/dictate1/wp-content/plugins/LayerSlider/static/skins/'})
+           }
+           });
+        </script>
+        <div class="ls-wp-fullwidth-container" style="height:625px;">
+           <div class="ls-wp-fullwidth-helper">
+              <div id="layerslider_3_1491980166_1" class="ls-wp-container" style="width:100%;height:625px;margin:0 auto;margin-bottom: 0px;">
+                 <div class="ls-slide" data-ls="slidedelay:7000; transition2d: all;">
+                    <img src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/layerslider/Doctor-1/layer-slider10.jpg" class="ls-bg" alt="layer-slider10" />
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <h4 class="ls-l" style="top:170px; left:50%; offsetxin:0;durationin:5000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% top 0;offsetxout:-400; font-size:50px; font-family:open sans; font-weight:800; color:#FFF; white-space: nowrap;  ">UX DESIGNER + WEB DEVELOPER</h4>
+                    </p>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <img class="ls-l" style="top:250px; left:50%; offsetxin:0;durationin:5000;delayin:2300;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxin:400; " src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2013/11/slide-heart.png" alt="">
+                    </p>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <h5 class="ls-l medical-slide-subtitle" style="top:370px; left:50%; slidedirection : fade; durationin : 1000; durationout : 1000; delayin : 1000; delayout : 0; showuntil : 5000; font-size:30px; font-family:open sans; font-weight:700; white-space: nowrap;">WE TAKE CARE FOR YOU</h5>
+                    </p>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <p class="ls-l" style="top:420px; left:50%; slidedirection : fade; durationin : 1000; durationout : 1000; delayin : 2000; delayout : 0; showuntil : 5000; skewxin:50deg; font-size:14px; font-family:noto sans; color:#FFF; text-align:center; line-height:30px; white-space:nowrap;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbiut mi. Nullam enim leo, egestas id, <br>Condim entum at laoreet mattis massa.</p>
+                    </p>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <a class="ls-l" style="top:500px; left:50%; offsetxin:0;durationin:2000;delayin:2600;easingin:easeOutElastic;scalein:0;transformoriginin:50%; offsetxin:400; font-size:14px; font-family:noto sans; color:#4c4a4a; font-weight:600; text-align:center; line-height:30px; background:rgba(255,255,255,0.84); padding:5px 30px;" href="#" title="">GET APPOINTMENT</a>
+                    </p>
+                 </div>
+                 <div class="ls-slide" data-ls="slidedelay:7000; transition2d: all;">
+                    <img src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/layerslider/Doctor-1/dictate-slider5.jpg" class="ls-bg" alt="dictate-slider5" />
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <div class="ls-s1" style="top:50%; left:40%; font-size:60px; font-family:roboto; font-weight:bold;slidedirection : right; slidedirection : fade; durationin : 2000; delayin : 500; rotatein : -90; rotateout : -90; scalein : 2.5; scaleout : 0;">
+                             <span style=" float:left; background:none repeat scroll 0 0 rgba(255, 255, 255, 0.9); line-height:80px; padding:0 20px; color:#363535; text-shadow:0 0 1px #fff; border-radius:5px 0 0 5px;">Clean &amp; Minimal</span>
+                             <span style="float:left; background:none repeat scroll 0 0 rgba(139, 147, 1, 0.8); line-height:80px; padding:0 20px; color:#f1dcc1; text-shadow:0 0 1px #fff; border-radius:0 5px 5px 0;">DESIGN</span>
+                       </div>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <div class="ls-s1" style="top:65%; left:40%; font-size:36px; font-family:open sans; font-weight:200; color:#fff; background:rgba(0,0,0,0.7); padding:0 35px; line-height:70px; border-radius:5px; slidedirection : fade; durationin : 2000; delayin : 1000; rotatein : 90; rotateout : 90; scalein : 2.5; scaleout : 0;">Retina ready &amp; fully responsive design</div>
+                    </p>
+                 </div>
+                 <div class="ls-slide" data-ls="slidedelay:7000; transition2d: all;">
+                    <img src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/layerslider/Doctor-1/dictate-slider4.jpg" class="ls-bg" alt="dictate-slider4" />
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                    <div class="ls-s5" style=" top:40%; left:650px;font-family:open sans; font-size:40px; color:#fff; padding: 0 20px; background:#505050;  border-radius:4px;   slidedirection : top; slideoutdirection : fade; durationin : 1000; durationout : 1000; easingin : easeOutExpo; easingout : easeInQuart; delayin : 0; delayout : 0; showuntil : 2000; rotatein : -120; scaleout : .5; ">WE THINK TO <span style="font-weight:lighter;">PROVIDE YOU</span></div>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <div class="ls-s5" style=" top:55%; left:650px;font-family:open sans; font-size:40px; color:#fff; padding: 0 20px; background:#e33e44;  border-radius:4px; slidedirection : bottom; slideoutdirection : fade; durationin : 1000; durationout : 1000; easingin : easeOutExpo; easingout : easeInQuart; delayin : 1000; delayout : 0; showuntil : 2000; rotatein : -120; scaleout : .5; ">GOOD <span style="font-weight:lighter;">SERVICE</span></div>
+                    </p>
+                    <p class="ls-l" style="top:0px;left:0px;white-space: nowrap;">
+                       <div class="ls-s5" style=" top:70%; left:650px; font-family:open sans; font-size:40px; color:#fff; padding: 0 20px; background:#505050;  border-radius:4px; slidedirection : top; slideoutdirection : fade; durationin : 1000; durationout : 1000; easingin : easeOutExpo; easingout : easeInQuart; delayin : 500; delayout : 0; showuntil : 2000; rotatein : -120; scaleout : .5; ">WE PROVIDE <span style="font-weight:lighter;">YOU GOOD</span></div>
+                    </p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+<!-- slider sectionun sonu -->
+
+<!-- service sectionun bashlangici -->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xs-12 serv-box">
+                <div class="col-md-12 col-xs-12 text-center serv-title">
+                  <h6><a href="#">HEART AND VASCULAR CARE</a></h6>
+                </div>
+                <div class="col-md-12 col-xs-12 text-center">
+                    <div class="box text-center">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                </div>
+              <div class="col-md-12 col-xs-12">
+                  <div class="serv-dec text-center">
+                      <span>EXPERIENCE A LIFETIME</span>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Duis...</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-xs-12 serv-box">
+                <div class="col-md-12 col-xs-12 text-center serv-title">
+                  <h6><a href="#">LONG TERM CARE</a></h6>
+                </div>
+                <div class="col-md-12 col-xs-12 text-center">
+                    <div class="box text-center">
+                      <i class="fa fa fa-group" aria-hidden="true"></i>
+                    </div>
+                </div>
+              <div class="col-md-12 col-xs-12">
+                  <div class="serv-dec text-center">
+                      <span>EXPERIENCE A LIFETIME</span>
+                      <p>Lorema ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-xs-12 serv-box">
+                <div class="col-md-12 col-xs-12 text-center serv-title">
+                  <h6><a href="#">EMERGENCY CARE</a></h6>
+                </div>
+                <div class="col-md-12 col-xs-12 text-center">
+                    <div class="box text-center">
+                      <i class="fa fa fa-ambulance" aria-hidden="true"></i>
+                    </div>
+                </div>
+              <div class="col-md-12 col-xs-12">
+                  <div class="serv-dec text-center">
+                      <span>EXPERIENCE A LIFETIME</span>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Duis...</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- service sectionun sonu -->
+
+<!-- news sectionun basglangici -->
+    <section id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <h4>Recent News</h4>
+            <div class="border"></div>
+              <div class="row">
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                  <div class="new">
+                    <div class="new-img">
+                      <img src="images/new1.png" alt="">
+                        <div class="new-time text-center">
+                          <h5>11</h5>
+                          <p>November 2014</p>
+                        </div>
+                    </div>
+                    <div class="new-title text-center">
+                      <h5><a href="#">I know every one is not popular in World</a></h5>
+                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <h4>SERVICE AREAS</h4>
+            <div class="border"></div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetioly</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a
+                    <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a
+                    <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+                <li>
+                  <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                  <a href="#">Aetiology</a>
+                  <a href="#" class="hover">Aetiology</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- news sectionun sonu -->
+
+<!-- rey sectionun bashlangici -->
+    <section id="rey" style="background-image:url(images/bg.png)">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-xs-12 text-center" >
+              <div class="span8 "><div class="vc_empty_space"  style="height: 55px" ><span class="vc_empty_space_inner"></span></div>
+                 <div class="testimonial overlap">
+                    <div class="tab-content" id="myTabContent">
+                                <div id="testimonial0" class="tab-pane fade active in">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial1" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit,</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial1" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial2" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit, non fermentum dolor rhoncus....</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial2" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial6" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit,</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial3" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial3" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit, non fermentum dolor rhoncus....</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial4" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial4" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit,</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial5" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial6" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4><span>Jan 31, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit, non fermentum dolor rhoncus....</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial6" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial7" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                        <h4>Urologist<span>Jan 22, 2014</span></h4>
+                                      <p>Donec eget tellus scelerisque, auctor augue non, varius elit. Morbi bibendum metus id dolor suscipit,</p>
+                                  </div>
+                              </div>
+                                <div id="testimonial7" class="tab-pane fade ">
+                                  <div class="testimonial-details">
+                                      <img width="71" height="63" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2013/11/client2.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="client2" />                        <h4>Psychiatrist<span>Nov 29, 2013</span></h4>
+                                      <p>Nullam euismod sed Nullam euismod sed Nullam euismod sed Nullam euismod sed Nullam euismod sed Nullam</p>
+                                  </div>
+                              </div>
+                    </div><ul class="nav nav-tabs testimonial-carousel" id="myTab">         <li class="active">
+                             <a data-toggle="tab" href="#testimonial0">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial1" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial1.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial1">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial2" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial2.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial2">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial6" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial3">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial3" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial3.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial4">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial4" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial4.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial5">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial6" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial6.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial6">
+                                <div>
+                                <img width="140" height="140" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-140x140.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="testimonial7" srcset="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-140x140.jpg 140w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-150x150.jpg 150w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-180x180.jpg 180w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7-103x103.jpg 103w, http://themes.webinane.com/wp/dictate1/wp-content/uploads/2014/01/testimonial7.jpg 270w" sizes="(max-width: 140px) 100vw, 140px" />                    </div>
+                          </a>
+                       </li>
+                                <li >
+                             <a data-toggle="tab" href="#testimonial7">
+                                <div>
+                                <img width="71" height="63" src="http://themes.webinane.com/wp/dictate1/wp-content/uploads/2013/11/client2.jpg" class="attachment-140x140 size-140x140 wp-post-image" alt="client2" />                      </div>
+                          </a>
+                       </li>
+                      </ul></div>        <script>
+                    jQuery(window).load(function(){
+                       jQuery(".testimonial-carousel").owlCarousel({
+                          autoPlay: 8000,
+                          rewindSpeed : 3000,
+                          slideSpeed:2000,
+                          items : 4,
+                          itemsDesktop : [1199,4],
+                          itemsDesktopSmall : [979,3],
+                          itemsTablet : [768,2],
+                          itemsMobile : [479,1],
+                          navigation : true
+                       });
+                    });
+                    jQuery(document).ready(function($){
+                       datemodern();
+                       jQuery('.clockpicker').clockpicker();
+                    });
+                    </script>
+                      </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="row">
+                <div class="comment">
+                  <h5>MAKE AN APPOINTMENT</h5>
+                  <input type="text" name="" value="" placeholder="Full Name">
+                  <input type="text" name="" value="" placeholder="Phone No">
+                  <input type="text" name="" value="" placeholder="Email">
+                  <input class="sol pull-left" type="text" name="" value="" placeholder="App date">
+                  <input class="sag pull-right" type="text" name="" value="">
+                  <input type="text" name="" value="" placeholder="Description">
+                  <button class="btn" type="button" name="button">submit now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+<!-- rey sectionun sonu -->
+
+<!-- share-box sectionun bashlangici -->
+    <section id="share-box">
+
+    </section>
+<!-- share-box sectionun sonu -->
+
+<!-- footer-top sectionun bashlangici -->
+    <div class="footer-top">
+      <div class="cssarrow">
+      </div>
+    </div>
+<!-- footer-top sectionun sonu -->
+
+<!-- footer sectionun bashlangici -->
+    <section id="footer" style="background:url(images/footer-bg.jpg)">
+      <div class="footer-desc">
+        <div style="height:40px;"></div>
+        <div class="container">
+          <div class="col-md-6 col-xs-12">
+            <h3>Menu</h3>
+            <ul class="menu-left col-xs-6">
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+            </ul>
+            <ul class="menu-right col-xs-6">
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">Home <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <h3>our <span>location</span></h3>
+            <h6>Lorem ipsum dolor sit amet ne onsectetuer adsi tashinipiscing elit. Aenean commodo ligula egtt ashin dolor in tashin tyon.</h6>
+            <div class="info">
+
+              <i class="fa fa-envelope hover2" aria-hidden="true"></i>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p>BY E-MAIL:</p>
+              <a href="#" class="pull-right">info@yoursite.com</a>
+            </div>
+            <div class="info">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p>BY PhONE:</p>
+              <a href="#" class="pull-right">+900-78601</a>
+            </div>
+            <div class="info">
+              <div class="col-md-5" style="padding:0px;">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <p>ADDRESS:</p>
+              </div>
+              <div class="col-md-7" style="padding:0px;">
+                <a href="#" class="pull-right">Seward Street, Os kla Home City</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+
+          </div>
+
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <p>@ 2011 - 2017 All Rights Reserved" by Webinane A Web Design Company</p>
+                <div class="social-box">
+                  <ul class="pull-right">
+                    <li class="text-center">
+                      <a href="#">
+                        <i class="fa fa-skype" aria-hidden="true"></i>
+                        <i class="fa fa-skype hover3" aria-hidden="true"></i>
+                      </a>
+                    </li>
+
+                    <li class="text-center">
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i><br>
+                        <i class="fa fa-facebook hover3" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#">
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <i class="fa fa-twitter hover3" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    <li class="text-center">
+                      <a href="#">
+                        <i class="fa fa-flickr" aria-hidden="true"></i>
+                        <i class="fa fa-flickr hover" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="text-center">
+                      <a href="#">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <i class="fa fa-youtube hover3" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- footer sectionun sonu -->
+    <script type="text/javascript" src="slider-js/jquery-easing-1.3.js?ver=4.12.0"></script>
+    <script type="text/javascript" src="slider-js/jquery-transit-modified.js?ver=4.12.0"></script>
+    <script type="text/javascript" src="slider-js/layerslider.transitions.js?ver=4.12.0"></script>
+
+    <script type="text/javascript" src="assets/vendors/jquery/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="assets/vendors/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/bootstrap/js/owl.carousel.min.js"></script>
+
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
